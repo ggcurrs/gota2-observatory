@@ -1,4 +1,4 @@
-#gota2-observatory
+# gota2-observatory
 ## stockb.py
 某掲示板の某板のスクレイピング実験用のスクリプトです。
 0 起動すると、カレントディレクトリの下に"MyOutputs"ディレクトリ（フォルダ）が生成されます。
