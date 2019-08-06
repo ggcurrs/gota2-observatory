@@ -49,7 +49,7 @@ print('Following URLs('+str(len(dl_list))+' threads) have been identified.')
 for j in dl_list:
     print(j)
 
-#Proceed of not?
+#Proceed or not?
 dl_yn = input('Download the threads? (y/n) >> ')
 
 if dl_yn == "y":
