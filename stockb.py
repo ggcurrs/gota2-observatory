@@ -3,7 +3,7 @@
 __author__ = "Admin GGCS"
 __copyright__ = "Copyright 2019"
 __license__ = "MIT"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Admin GGCS"
 __website__ = "ggcs.io"
 
