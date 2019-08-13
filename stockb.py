@@ -17,9 +17,9 @@ import time
 #import pandas as pd
 
 #Preparing an output folder
-OUTPUT_DIR = os.path.join(".", "MyOutputs")
-if not os.path.isdir(OUTPUT_DIR):
-    os.makedirs(OUTPUT_DIR)
+DOWNLOAD_DIR = os.path.join(".", "DownloadedHtml")
+if not os.path.isdir(DOWNLOAD_DIR):
+    os.makedirs(DOWNLOAD_DIR)
 
 #Input the URL of thread list.
 try:
@@ -60,7 +60,7 @@ if dl_yn == "y":
 
         #For ease of file handling, separeate html files will be generated.
         #Encoding = utf-8
-        outputFile = os.path.join(OUTPUT_DIR, 'outputFile_'+str(counter)+'.html')
+        outputFile = os.path.join(DOWNLOAD_DIR, 'DownloadedHtml_'+str(counter)+'.html')
         with open(outputFile, 'w') as f2:
             f2.write(turtle)
         time.sleep(5) # Delays for 5 seconds.
@@ -70,4 +70,4 @@ if dl_yn == "y":
     print("Completed")
 
 else: print('*** Aborted ***')
-os.system('open ' + OUTPUT_DIR)
+os.system('open ' + DOWNLOAD_DIR)
