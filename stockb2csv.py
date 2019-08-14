@@ -3,7 +3,7 @@
 __author__ = "Admin GGCS"
 __copyright__ = "Copyright 2019"
 __license__ = "MIT"
-__version__ = "1.0.0"
+__version__ = "1.0.1e"
 __maintainer__ = "Admin GGCS"
 __website__ = "ggcs.io"
 
@@ -16,9 +16,9 @@ import numpy as np
 import pandas as pd
 
 """
-カレントディレクトリの下に、"SourceHtml"と"Converted"のふたつのフォルダを作る。
+カレントディレクトリの下に、"DownloadedHtml"と"Converted"のふたつのフォルダを作る。
 （既に存在している場合作らない）
-- 対象となるHTMLファイルは"SourceHtml"フォルダに格納されている前提。
+- 対象となるHTMLファイルは"DownloadedHtml"フォルダに格納されている前提。
 - ファイルネームは"DownloadedHtml_[number].html"の形式を想定。
 - csvに変換されたファイルは"Converted"フォルダに作られる。
 """
