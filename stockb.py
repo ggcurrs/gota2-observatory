@@ -3,7 +3,7 @@
 __author__ = "Admin GGCS"
 __copyright__ = "Copyright 2019"
 __license__ = "MIT"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __maintainer__ = "Admin GGCS"
 __website__ = "ggcs.io"
 
@@ -40,11 +40,11 @@ except Exception as exc_msg:
 
 #Listing the thread URLs in a string
 f = ""
-for i in toc_soup.find_all('a', href=True):
-    f += BASE_URL + i['href'][0:11] + '\n'
+for i in toc_soup.find_all('a'):
+    f += BASE_URL + i.get('href')[0:-4] + '\n'
 
 #Convert the string to a list and trim (pls. confirm the slice range)
-dl_list = f.split('\n')[3:-4]
+dl_list = f.split('\n')
 print('Following URLs('+str(len(dl_list))+' threads) have been identified.')
 for j in dl_list:
     print(j)
