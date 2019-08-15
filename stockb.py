@@ -44,7 +44,7 @@ for i in toc_soup.find_all('a'):
     f += BASE_URL + i.get('href')[0:-4] + '\n'
 
 #Convert the string to a list and trim (pls. confirm the slice range)
-dl_list = f.split('\n')[3:4]
+dl_list = f.split('\n')[3:-4]
 print('Following URLs('+str(len(dl_list))+' threads) have been identified.')
 for j in dl_list:
     print(j)
