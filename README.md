@@ -35,3 +35,10 @@ stockb.pyでダウンロードしたhtmlファイルをパースしてCSVに整�
 - インターネットの巨大掲示板の「株個別銘柄(仮)」板の2007年06月02日〜2019月08月13日の書き込み（dat落ちしたものを除く。）を整理したCSVファイルです。
 - 分析用のデータですので、メッセージ本体のデータは9文字目以降削除してあります。これだけでも銘柄ごとの書き込み速度は分析できます。
 - 87,348行、14 MB、encoding = UTF-8、BOM無しのデータです。
+
+
+## wikipedia-table.ipynb
+- ある特定のWikipediaページの表を抽出するスクリプト（Jupyter Notebook用）です。
+- TARGET_URLのほか、firstBlockStarts, secondBlockStarts, thirdBlockStarts, blockEndsなどのパラメータを
+blockEndsなどの変更すればそれなりに汎用性があります。
+- CSVファイルで出力した場合、encoding = UTF-8、BOM無しとなるので、Excelから開く場合はencodingを手動で設定してください。
