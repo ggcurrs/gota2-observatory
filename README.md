@@ -39,6 +39,5 @@ stockb.pyでダウンロードしたhtmlファイルをパースしてCSVに整�
 
 ## wikipedia-table.ipynb
 - ある特定のWikipediaページの表を抽出するスクリプト（Jupyter Notebook用）です。
-- TARGET_URLのほか、firstBlockStarts, secondBlockStarts, thirdBlockStarts, blockEndsなどのパラメータを
-blockEndsなどの変更すればそれなりに汎用性があります。
+- TARGET_URLのほか、firstBlockStarts, secondBlockStarts, thirdBlockStarts, blockEndsなどのパラメータを変更して使えばそれなりに汎用性があります。
 - CSVファイルで出力した場合、encoding = UTF-8、BOM無しとなるので、Excelから開く場合はencodingを手動で設定してください。
