@@ -41,3 +41,8 @@ stockb.pyでダウンロードしたhtmlファイルをパースしてCSVに整�
 - ある特定のWikipediaページの表を抽出するスクリプト（Jupyter Notebook用）です。
 - TARGET_URLのほか、firstBlockStarts, secondBlockStarts, thirdBlockStarts, blockEndsなどのパラメータを変更して使えばそれなりに汎用性があります。
 - CSVファイルで出力した場合、encoding = UTF-8、BOM無しとなるので、Excelから開く場合はencodingを手動で設定してください。
+
+
+## jiroCalc-01.ipynb
+- 日本食品標準成分表のデータからラーメン二郎のカロリー 、成分を計算するスクリプト（Jupyter Notebook用）です。
+- Sample data は https://github.com/ggcurrs/data/blob/master/jiro-nutrition-facts.csv です。
