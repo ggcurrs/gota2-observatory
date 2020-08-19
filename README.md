@@ -5,6 +5,7 @@ Python の module, tabula と Pandas を利用して、在インド日本国大�
 ## pdf_to_csv_sort.ipynb
 pdf_to_csv_prep.ipynb で作った DataFrame の cleansing. Pandas の pandas.Categorical() を利用します。
 
+
 ## stockb.py
 某掲示板の某板のスクレイピング実験用のスクリプトです。
 
