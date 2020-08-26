@@ -1,9 +1,16 @@
 # gota2-observatory
-## pdf_to_csv_prep.ipynb
+## PDF to CSV Project
+### pdf_to_csv_prep.ipynb
 Python の module, tabula と Pandas を利用して、在インド日本国大使館が公表している[インド進出日系企業リスト-2018](https://www.in.emb-japan.go.jp/Japanese/Japanese_companies_2018.html)の PDF から表のデータを抽出して CSV 化するスクリプトです。
+Web site: [Google Colab: PDF to CSV 変換器を Colab に設置 [第二話 死闘篇] – NaN は dtype: float で捕捉！](https://ggcs.io/2020/08/11/google-colab-pdf-export-02/)
 
-## pdf_to_csv_sort.ipynb
+### pdf_to_csv_sort.ipynb
 pdf_to_csv_prep.ipynb で作った DataFrame の cleansing. Pandas の pandas.Categorical() を利用します。
+Web site: [Google Colab: PDF to CSV 変換器をColabに設置 [第三話 乱麻篇] – Categorical data は頼れる味方](https://ggcs.io/2020/08/19/google-colab-pdf-export-03/)
+
+### pdf_to_csv_norm.ipynb
+上の 2 つのスクリプトを使って得た df_sorted_intermed.csv を読み込んで、table_master.csv と table_biz_types.csv を出力するスクリプトです。
+Web site: [Google Colab: PDF to CSV 変換器を Colab に設置 [第四話 望郷篇] – Pandas を SQL っぽく使う](https://ggcs.io/2020/08/26/google-colab-pdf-export-04/)
 
 
 ## stockb.py
