@@ -2,7 +2,7 @@
 
 ## Population of India
 ### world_population.ipynb
-UN の [World Population Prospects 2019](https://population.un.org/wpp/Download/Standard/Population/) から India と China の人口（推定／予測値）を抽出して CSV ファイルに保存する Python script.
+UN の [World Population Prospects 2019](https://population.un.org/wpp/Download/Standard/Population/) から India と China の人口データ（1950-2100年, 推定／予測値）を抽出して CSV ファイルに保存する Python script です。
 
 
 ## PDF to CSV Project
